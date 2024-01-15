@@ -9,9 +9,6 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
 }
  label {
      display: block;
@@ -25,13 +22,18 @@ body{
      padding: 5px;
  }
 
-
+.main-form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
  .container{
     width: 70%;
     margin-top: 40px;
     border: 1px solid grey;
     border-radius: 9px;
     box-shadow: 1px 2px 6px rgba(128, 128, 128, 0.493);
+    
  }
 
  /* Form styling */
@@ -62,3 +64,5 @@ body{
  .form-btn button:hover{
     background-color: rgb(37, 36, 36);
  }
+
+ 
